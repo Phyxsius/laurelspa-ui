@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "form-field": {
+      "projectType": "library",
+      "root": "projects/form/form-field",
+      "sourceRoot": "projects/form/form-field/src",
+      "prefix": "ls",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/form/form-field/tsconfig.lib.json",
+            "project": "projects/form/form-field/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/form/form-field/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/form/form-field/src/test.ts",
+            "tsConfig": "projects/form/form-field/tsconfig.spec.json",
+            "karmaConfig": "projects/form/form-field/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/form/form-field/tsconfig.lib.json",
+              "projects/form/form-field/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "form-field"
 }

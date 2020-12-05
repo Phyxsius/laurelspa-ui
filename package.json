@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "copyDist": "rm -rf node_modules/@laurelspa/ui && mkdir -p node_modules/@laurelspa && cp -R dist/ui node_modules/@laurelspa/ui"
+    "copyDist": "rm -rf node_modules/@laurelspa/ui && mkdir -p node_modules/@laurelspa && cp -R dist/ui node_modules/@laurelspa/ui",
+    "build:all": "./scripts/build_all.sh",
+    "build:all:prod": "./scripts/build_all_prod.sh"
   },
   "private": true,
   "dependencies": {

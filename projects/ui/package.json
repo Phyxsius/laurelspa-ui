@@ -1,0 +1,13 @@
+{
+  "name": "@laurelspa/ui",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/phyxsius/laurelspa-ui.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

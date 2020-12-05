@@ -1,12 +1,13 @@
 {
   "name": "laurelspa-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "copyDist": "rm -rf node_modules/@laurelspa/ui && mkdir -p node_modules/@laurelspa && cp -R dist/ui node_modules/@laurelspa/ui"
   },
   "private": true,
   "dependencies": {

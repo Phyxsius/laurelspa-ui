@@ -1,5 +1,5 @@
 {
-  "name": "form-field",
+  "name": "@laurelspa/ui/form/form-field",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.0.3",

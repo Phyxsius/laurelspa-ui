@@ -4,7 +4,7 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -23,6 +23,14 @@
       "form-field": [
         "dist/ui/form/form-field/form-field",
         "dist/ui/form/form-field"
+      ],
+      "core": [
+        "dist/ui/core/core",
+        "dist/ui/core"
+      ],
+      "input": [
+        "dist/input/input",
+        "dist/input"
       ]
     }
   },

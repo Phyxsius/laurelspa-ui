@@ -1,0 +1,17 @@
+{
+  "name": "@laurelspa/ui/button",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/laurelspa/ui.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.0.3",
+    "@angular/core": "^11.0.3"
+},
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

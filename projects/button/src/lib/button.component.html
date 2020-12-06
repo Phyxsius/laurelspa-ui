@@ -1,0 +1,8 @@
+<ng-content select=".start"></ng-content>
+
+<span class="ls-button__label">
+  <ng-content *ngIf="!loading"></ng-content>
+  <!-- <ls-mark *ngIf="loading"></ls-mark> -->
+</span>
+
+<ng-content select=".end"></ng-content>

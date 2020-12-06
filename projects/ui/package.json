@@ -2,7 +2,7 @@
   "name": "@laurelspa/ui",
   "version": "0.0.1",
   "repository": {
-    "url": "git://github.com/phyxsius/laurelspa-ui.git"
+    "url": "git://github.com/laurelspa/laurelspa-ui.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

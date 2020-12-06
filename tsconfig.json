@@ -29,8 +29,12 @@
         "dist/ui/core"
       ],
       "input": [
-        "dist/input/input",
-        "dist/input"
+        "dist/ui/form/input/input",
+        "dist/ui/form/input"
+      ],
+      "button": [
+        "dist/ui/button/button",
+        "dist/ui/button"
       ]
     }
   },

@@ -1,0 +1,19 @@
+.ls-button-group {
+  // First button in the group, with multiple buttons
+  .ls-button:first-of-type:not(:last-of-type) {
+    border-radius: 2px 0 0 2px;
+  }
+
+  // Last button in the group, with multiple buttons
+  .ls-button:last-of-type:not(:first-of-type) {
+    border-radius: 0 2px 2px 0;
+  }
+
+  .ls-button:not(:first-of-type) {
+    border-left-width: 0 !important;
+  }
+
+  .ls-button {
+    border-radius: 0;
+  }
+}

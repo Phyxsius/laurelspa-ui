@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ui/button",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "@laurelspa/ui/core": "@laurelspa/ui/core",
+      "@laurelspa/ui/loader": "@laurelspa/ui/loader"
+    }
+  },
+  "whitelistedNonPeerDependencies": ["@laurelspa/ui/core", "@laurelspa/ui/loader"]
+}

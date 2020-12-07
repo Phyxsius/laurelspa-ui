@@ -8,12 +8,12 @@
   --button__color--active: var(--textcolor);
   --button__padding: 0 12px;
   --button__height: 36px;
-  --button__font-size: 1.4rem;
+  --button__font-size: 0.875rem;
   --button__font-weight: 600;
   --button__border-width: 1px;
 
   background-color: var(--button__background-color);
-  border-radius: 2px;
+  border-radius: 0.375rem;
   border: var(--button__border-width) solid
     var(--button__border-color, transparent);
   color: var(--button__color);

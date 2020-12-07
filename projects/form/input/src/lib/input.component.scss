@@ -4,7 +4,7 @@
   --color: var(--textcolor);
   appearance: none;
   background-color: var(--background-color);
-  border-radius: 2px;
+  border-radius: 0.375rem;
   border: 1px solid var(--border-color);
   color: var(--color);
   display: inline-flex;
@@ -16,7 +16,7 @@
   max-width: 635px;
   min-height: 36px;
   min-width: 56px;
-  padding: 0.8rem 1.2rem;
+  padding: 0.5rem 0.75rem;
   transition: all 0.2s ease-in-out 0s;
   vertical-align: middle;
   width: 100%;

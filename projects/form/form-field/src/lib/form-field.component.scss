@@ -15,14 +15,12 @@
   }
 
   label {
-    --cap-height: 0.828;
     --font-size: var(--font-size--small);
-    --baseline-multi: 2;
 
     color: var(--textcolor);
     display: block;
     font-weight: var(--font-weight--bold);
-    margin-bottom: calc(var(--font-line-height) - var(--baseline-offset) - 4px);
+    margin-bottom: 0.5rem;
     max-width: var(--paragraph--max-width);
     user-select: none;
 
@@ -34,10 +32,10 @@
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-style: italic;
-    padding: 0 0 0 1.2rem;
-    margin-top: 0.8rem;
+    padding: 0 0 0 0.75rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -53,12 +51,12 @@
   top: 0;
   bottom: 8px;
   pointer-events: none;
-  padding-right: 0.8rem;
+  padding-right: 0.5rem;
   display: flex;
   align-items: center;
   color: #9fa6b2;
   color: rgba(159, 166, 178, var(--text-opacity));
-  height: 3.6rem;
+  height: 2.25rem;
 }
 
 .input-wrapper {
@@ -77,8 +75,8 @@
   display: flex;
   font-size: var(--font-size--small);
   // margin-bottom: var(--margin-bottom, 0);
-  min-height: 3.6rem;
-  padding: 0 0.8rem;
+  min-height: 2.25rem;
+  padding: 0 0.5rem;
   white-space: nowrap;
 
   &.dropdown {
@@ -88,8 +86,8 @@
 
     .ls-input-element {
       margin-bottom: 0;
-      min-height: 3.4rem;
-      margin-right: 0.8rem;
+      min-height: 2rem;
+      margin-right: 0.5rem;
     }
   }
 }

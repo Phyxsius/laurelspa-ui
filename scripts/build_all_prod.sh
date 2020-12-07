@@ -10,8 +10,8 @@ npm run copyDist &&
 # ### LOADER ###
 # ng build loader --prod &&
 # npm run copyDist &&
-# ### BUTTON ###
-# ng build button --prod &&
+### BUTTON ###
+ng build button --prod &&
 # ### FAQ ###
 # ng build faq --prod &&
 ### FORM ###

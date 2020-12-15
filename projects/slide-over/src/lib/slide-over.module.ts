@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
-import { SlideOverComponent } from './slide-over.component';
-
-
+import { LsSlideOverComponent } from './slide-over.component';
 
 @NgModule({
-  declarations: [SlideOverComponent],
-  imports: [
-  ],
-  exports: [SlideOverComponent]
+  declarations: [LsSlideOverComponent],
+  imports: [],
+  exports: [LsSlideOverComponent],
 })
-export class SlideOverModule { }
+export class LsSlideOverModule {}

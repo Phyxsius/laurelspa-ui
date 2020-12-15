@@ -35,8 +35,8 @@ ng build checkbox --prod &&
 # ng build list --prod &&
 # ### SNACKBAR ###
 # ng build snackbar --prod &&
-# ### SLIDE-OVER ###
-# ng build slide-over --prod &&
+### SLIDE-OVER ###
+ng build slide-over --prod &&
 # ### TABLE ###
 # ng build table --prod &&
 # ### PANEL ###

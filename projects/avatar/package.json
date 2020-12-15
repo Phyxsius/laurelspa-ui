@@ -1,10 +1,10 @@
 {
-  "name": "avatar",
+  "name": "@laurelspa/ui/avatar",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.0.3",
     "@angular/core": "^11.0.3"
-  },
+},
   "dependencies": {
     "tslib": "^2.0.0"
   }

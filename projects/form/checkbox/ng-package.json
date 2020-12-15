@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../dist/ui/form/checkbox",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "@laurelspa/ui/core": "@laurelspa/ui/core"
+    }
+  },
+  "whitelistedNonPeerDependencies": ["@laurelspa/ui/core"]
+}

@@ -35,6 +35,14 @@
       "button": [
         "dist/ui/button/button",
         "dist/ui/button"
+      ],
+      "checkbox": [
+        "dist/ui/form/checkbox/checkbox",
+        "dist/ui/form/checkbox"
+      ],
+      "slide-over": [
+        "dist/ui/slide-over/slide-over",
+        "dist/ui/slide-over"
       ]
     }
   },

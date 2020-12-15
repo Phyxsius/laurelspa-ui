@@ -43,6 +43,10 @@
       "slide-over": [
         "dist/ui/slide-over/slide-over",
         "dist/ui/slide-over"
+      ],
+      "avatar": [
+        "dist/ui/avatar/avatar",
+        "dist/ui/avatar"
       ]
     }
   },

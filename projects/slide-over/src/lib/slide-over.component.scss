@@ -26,7 +26,7 @@
 
   &.wide {
     .panel {
-      max-width: 70.4rem;
+      max-width: 44rem;
     }
   }
 
@@ -56,14 +56,13 @@
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.5s;
-  background-color: #6b7280;
-  background-color: rgba(107, 114, 128, var(--bg-opacity));
+  background-color: rgba(var(--color-rgb--gray-500), var(--bg-opacity));
 }
 
 .slide-over {
   display: flex;
   max-width: 100%;
-  padding-left: 4rem;
+  padding-left: 0.25rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -73,7 +72,7 @@
 .panel {
   position: relative;
   width: 100vw;
-  max-width: 44.8rem;
+  max-width: 28rem;
 
   --transform-translate-x: 100%;
   --transform-translate-y: 0;
@@ -90,21 +89,21 @@
     opacity, box-shadow, transform;
   transition-duration: 0.5s;
 
-  @media (min-width: 64rem) {
+  @media (min-width: 640px) {
     transition-duration: 0.7s;
   }
 }
 
 .panel__content {
-  background: var(--theme--background-accent);
+  background: var(--slide-over__background-color, var(--color--gray-100));
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow-y: scroll;
-  padding-bottom: 2.4rem;
-  padding-top: 2.4rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .close-button {
@@ -112,13 +111,13 @@
   display: flex;
   position: absolute;
   top: 0;
-  padding-top: 1.6rem;
+  padding-top: 1rem;
 
-  padding-right: 0.8rem;
-  margin-left: -3.2rem;
+  padding-right: 0.5rem;
+  margin-left: -2rem;
 
-  @media (min-width: 64rem) {
-    padding-right: 1.6rem;
+  @media (min-width: 640px) {
+    padding-right: 1rem;
     margin-left: -4rem;
   }
 
@@ -136,7 +135,7 @@
     transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform;
 
-    color: var(--textcolor-reverse);
+    color: var(--textcolor);
     padding: 0;
     line-height: 1rem;
     cursor: pointer;
